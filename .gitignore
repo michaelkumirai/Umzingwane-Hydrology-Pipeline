@@ -1,0 +1,6 @@
+*.exe
+*.o
+*.obj
+params.txt
+__pycache__/
+.venv/
