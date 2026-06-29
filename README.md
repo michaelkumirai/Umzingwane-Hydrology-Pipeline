@@ -19,19 +19,15 @@ A hybrid C++ and Python pipeline designed for stochastic hydrological modeling. 
 The pipeline is operated via the interactive Streamlit dashboard, which automates the build and execution process.
 
 1. Ensure Python, a C++ compiler (G++), and the required libraries are installed:
-   ```bash
+```bash
 pip install pandas streamlit
-
 ```
 2. Navigate to the project directory:
 ```bash
 cd UmzingwaneML
-
 ```
 3. Launch the dashboard:
 ```bash
 streamlit run dashboard.py
 ```
-
-
 4. Use the sidebar to select your data scenario and click **"Run Simulation"**. The dashboard will automatically handle the compilation of the C++ engine, the training of the ML model, and the generation of your Flow Duration Curve.
